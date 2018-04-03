@@ -22,6 +22,6 @@ function iLoveTheBeatles(num){
       variable.push(string)
       i=i+num
   }
-  while (i<15);
+  while (i<=15);
   return variable
 }
