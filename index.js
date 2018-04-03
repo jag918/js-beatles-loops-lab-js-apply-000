@@ -19,11 +19,12 @@ function iLoveTheBeatles(num){
   var i=0
   do {
     variable="I love the Beatles!"
-  }
-  while (i<15){
-      var string="I love the Beatles!"
+    var string="I love the Beatles!"
       variable.push(string)
       i=i+num
+  }
+  while (i<15){
+      
   }
   return variable
 }
