@@ -18,13 +18,10 @@ function iLoveTheBeatles(num){
   var variable=[]
   var i=0
   do {
-    variable="I love the Beatles!"
     var string="I love the Beatles!"
       variable.push(string)
       i=i+num
   }
-  while (i<15){
-      
-  }
+  while (i<15);
   return variable
 }
