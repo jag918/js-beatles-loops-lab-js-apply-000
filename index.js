@@ -17,15 +17,13 @@ function johnLennonFacts(fact){
 function iLoveTheBeatles(num){
   var variable=[]
   var i=0
-  while (i<=num){
-    if (num<15){
+  do {
+    variable="I love the Beatles!"
+  }
+  while (i<15){
       var string="I love the Beatles!"
       variable.push(string)
-      i=i+1
-    }else{
-      variable.push("I love the Beatles!")
-      i=num+1
-    }
+      i=i+num
   }
   return variable
 }
